@@ -113,7 +113,3 @@ GC_Plot <- ggplot(data = Data_Frame, aes (x = Names, y = GC_P, fill = Names)) + 
 pdf ("03_Output/Plots/GC_Percentage.pdf", width = 10, height = 10) # Save it as PDF with specific measures
 print (GC_Plot) # Print
 dev.off () # Close the output 
-
-pdf ("03_Output/Plots/Color_Tree_Clustal_O.pdf", width = 10, height = 10) # Save it as PDF with specific measures 
-plot (Color_Tree_Clustal_O) # Run the plot
-dev.off () # Close the output
